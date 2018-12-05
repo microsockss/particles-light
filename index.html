@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+Created by Microsocks
+https://github.com/microsockss/
+-->
+<html lang="en">
+
+<head>
+  <title>Particles Light</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Black Bar at top-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand brand" href="/">
+      <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" style="margin-right:10px;"> Particles Light
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav" href="index.html" style="cursor: pointer;">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav" href="about.html" style="cursor: pointer;">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav" href="contact.html" style="cursor: pointer;">Contact<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav" href="services.html" style="cursor: pointer;">Services<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav" href="gallery.html" style="cursor: pointer;">Gallery<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="intro">
+    <canvas id="canvas"></canvas>
+    <div id="buffer" style="display:none;">
+      <script src="js/index.js"></script>
+    </div>
+  </div>
+  <div class="about">
+    <br>
+    <div class="container-fluid">
+      <div class="row" style="text-align: center;">
+        <div class="col-sm">
+          <a href="about.html">
+            <img src="img/rocket.svg" alt="about" style="width: 100px; height: 100px;"><br><br>
+          </a>
+          <a class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue sit amet enim in tristique.</a>
+        </div>
+        <div class="col-sm">
+          <a href="contact.html">
+            <img src="img/location.svg" alt="contact" style="width: 100px; height: 100px;"><br><br>
+          </a>
+          <a class="caption">Integer magna elit, facilisis in ipsum sit amet, ornare faucibus felis. Cras id posuere nunc.</a>
+        </div>
+        <div class="col-sm">
+          <a href="services.html">
+            <img src="img/globe.svg" alt="services" style="width: 100px; height: 100px;"><br><br>
+          </a>
+          <a class="caption">Proin quis sodales est, eget molestie tortor. Nam viverra purus mauris, vitae tempus arcu viverra.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
